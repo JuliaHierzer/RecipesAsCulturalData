@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "title": "New dashboard",
+  "description": "",
+  "pages": [
+    {
+      "id": "0",
+      "version": 1,
+      "title": "Main page",
+      "widgets": []
+    }
+  ],
+  "params": []
+}

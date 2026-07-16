@@ -1,0 +1,811 @@
+<?xml version="1.0" ?>
+<culinary-corpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipes.xsd">
+    <recipe id="r_01" cuisine="Japanese">
+        <title>Miso Soup</title>
+        <ingredients>
+            <ingredient id="r01_ing_04">
+                <name>Miso Paste</name>
+                <qty unit="tbsp">2.5</qty>
+                <functions>
+                    <function>Umami Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r01_ing_08">
+                <name>Dashi</name>
+                <qty unit="ml">400</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <instructions>
+                <step number="1">Gently heat dashi, whisk in miso paste, add toppings, do not boil.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Japanese Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Japanese corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_02" cuisine="Japanese">
+        <title>Tamagoyaki</title>
+        <ingredients>
+            <ingredient id="r02_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">3</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r02_ing_09">
+                <name>Soy Sauce</name>
+                <qty unit="tsp">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r02_ing_10">
+                <name>Mirin</name>
+                <qty unit="tbsp">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Pan-frying"/>
+            <technique name="Layering"/>
+            <instructions>
+                <step number="1">Whisk eggs with mirin and soy sauce. Roll thin layers iteratively in a square pan.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Japanese Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Japanese corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_03" cuisine="Japanese">
+        <title>Okonomiyaki</title>
+        <ingredients>
+            <ingredient id="r03_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">1</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r03_ing_02">
+                <name>Katsuobushi</name>
+                <qty unit="g">5</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r03_ing_06">
+                <name>Nagaimo</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r03_ing_07">
+                <name>Cabbage</name>
+                <qty unit="g">200</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Pan-frying"/>
+            <instructions>
+                <step number="1">Mix shredded cabbage, flour, nagaimo, and egg. Griddle and top with katsuobushi.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Japanese Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Japanese corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_04" cuisine="Japanese">
+        <title>Onigiri</title>
+        <ingredients>
+            <ingredient id="r04_ing_05">
+                <name>Short-grain Rice</name>
+                <qty unit="g">150</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Steaming"/>
+            <instructions>
+                <step number="1">Salt warm rice, mold into triangles with desired fillings, wrap with nori.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Japanese Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Japanese corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_05" cuisine="Japanese">
+        <title>Japanese Curry Rice</title>
+        <ingredients>
+            <ingredient id="r05_ing_05">
+                <name>Short-grain Rice</name>
+                <qty unit="g">200</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r05_ing_11">
+                <name>Curry Roux</name>
+                <qty unit="g">100</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <instructions>
+                <step number="1">Simmer proteins/vegetables, dissolve curry roux blocks, serve over rice.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Japanese Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Japanese corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_06" cuisine="Levantine">
+        <title>Shakshuka</title>
+        <ingredients>
+            <ingredient id="r06_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">4</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r06_ing_13">
+                <name>Olive Oil</name>
+                <qty unit="tbsp">2</qty>
+                <functions>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r06_ing_14">
+                <name>Tomato</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r06_ing_15">
+                <name>Garlic</name>
+                <qty unit="cloves">3</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <instructions>
+                <step number="1">Cook tomatoes, garlic, and spices in olive oil until a thick sauce forms. Poach eggs directly in the sauce.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Levantine Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Levantine corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_07" cuisine="Levantine">
+        <title>Hummus</title>
+        <ingredients>
+            <ingredient id="r07_ing_15">
+                <name>Garlic</name>
+                <qty unit="clove">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r07_ing_16">
+                <name>Chickpeas</name>
+                <qty unit="g">250</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r07_ing_17">
+                <name>Tahini</name>
+                <qty unit="g">100</qty>
+                <functions>
+                    <function>Umami Base</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r07_ing_18">
+                <name>Lemon Juice</name>
+                <qty unit="tbsp">3</qty>
+                <functions>
+                    <function>Acidic Balancer</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Emulsifying"/>
+            <instructions>
+                <step number="1">Puree cooked chickpeas with tahini, lemon juice, garlic, and ice water until perfectly smooth and emulsified.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Levantine Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Levantine corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_08" cuisine="Levantine">
+        <title>Tabbouleh</title>
+        <ingredients>
+            <ingredient id="r08_ing_13">
+                <name>Olive Oil</name>
+                <qty unit="tbsp">3</qty>
+                <functions>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r08_ing_14">
+                <name>Tomato</name>
+                <qty unit="pcs">2</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r08_ing_19">
+                <name>Parsley</name>
+                <qty unit="g">200</qty>
+                <functions>
+                    <function>Herb Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r08_ing_20">
+                <name>Bulgur</name>
+                <qty unit="g">30</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r08_ing_21">
+                <name>Mint</name>
+                <qty unit="g">30</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Finely Chopping"/>
+            <instructions>
+                <step number="1">Finely chop immense amounts of parsley and mint. Toss with soaked bulgur, tomatoes, lemon juice, and olive oil.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Levantine Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Levantine corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_09" cuisine="Levantine">
+        <title>Falafel</title>
+        <ingredients>
+            <ingredient id="r09_ing_15">
+                <name>Garlic</name>
+                <qty unit="cloves">2</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r09_ing_16">
+                <name>Chickpeas</name>
+                <qty unit="g">300</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r09_ing_19">
+                <name>Parsley</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Herb Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r09_ing_22">
+                <name>Cumin</name>
+                <qty unit="tbsp">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Deep-frying"/>
+            <technique name="Molding"/>
+            <instructions>
+                <step number="1">Grind soaked, uncooked chickpeas with parsley, garlic, and cumin. Mold into balls and deep-fry.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Levantine Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Levantine corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_10" cuisine="Levantine">
+        <title>Kibbeh</title>
+        <ingredients>
+            <ingredient id="r10_ing_20">
+                <name>Bulgur</name>
+                <qty unit="g">200</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r10_ing_22">
+                <name>Cumin</name>
+                <qty unit="tsp">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r10_ing_23">
+                <name>Ground Beef/Lamb</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Binder</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Deep-frying"/>
+            <technique name="Molding"/>
+            <instructions>
+                <step number="1">Process fine bulgur and meat into a paste to mold into hollow shells. Stuff with spiced meat and deep-fry.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Levantine Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Levantine corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_11" cuisine="Italian">
+        <title>Pasta alla Carbonara</title>
+        <ingredients>
+            <ingredient id="r11_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">3</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r11_ing_24">
+                <name>Guanciale</name>
+                <qty unit="g">150</qty>
+                <functions>
+                    <function>Cured Fat Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r11_ing_25">
+                <name>Pecorino Romano</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Dairy Fat/Salinity</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Pan-frying"/>
+            <technique name="Emulsifying"/>
+            <instructions>
+                <step number="1">Render guanciale. Whisk eggs and pecorino. Toss hot pasta with rendered fat, then remove from heat and emulsify with egg mixture rapidly.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Italian Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Italian corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_12" cuisine="Italian">
+        <title>Ragù alla Bolognese</title>
+        <ingredients>
+            <ingredient id="r12_ing_14">
+                <name>Tomato</name>
+                <qty unit="tbsp">2</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r12_ing_23">
+                <name>Ground Beef/Lamb</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Binder</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r12_ing_26">
+                <name>Pancetta</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Cured Fat Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r12_ing_33">
+                <name>Mixed Vegetables (Sofrito/Minestrone)</name>
+                <qty unit="g">150</qty>
+                <functions>
+                    <function>Aromatic Trinity</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Reduction"/>
+            <technique name="Slow-cooking"/>
+            <instructions>
+                <step number="1">Sauté sofrito and pancetta. Add ground meat and brown. Deglaze, add light tomato base, and slow-cook for hours.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Italian Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Italian corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_13" cuisine="Italian">
+        <title>Risotto alla Milanese</title>
+        <ingredients>
+            <ingredient id="r13_ing_27">
+                <name>Arborio Rice</name>
+                <qty unit="g">320</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                    <function>Starch Binder</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r13_ing_28">
+                <name>Saffron</name>
+                <qty unit="tsp">1</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r13_ing_29">
+                <name>Parmigiano Reggiano</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Umami Base</function>
+                    <function>Dairy Fat/Salinity</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <technique name="Emulsifying"/>
+            <technique name="Toasting"/>
+            <instructions>
+                <step number="1">Toast arborio rice in fat. Gradually add hot broth infused with saffron, stirring constantly to release starches until creamy.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Italian Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Italian corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_14" cuisine="Italian">
+        <title>Margherita Pizza</title>
+        <ingredients>
+            <ingredient id="r14_ing_13">
+                <name>Olive Oil</name>
+                <qty unit="tbsp">1</qty>
+                <functions>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r14_ing_14">
+                <name>Tomato</name>
+                <qty unit="g">80</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r14_ing_30">
+                <name>00 Flour</name>
+                <qty unit="g">250</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r14_ing_31">
+                <name>Mozzarella di Bufala</name>
+                <qty unit="g">100</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r14_ing_32">
+                <name>Basil</name>
+                <qty unit="leaves">5</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Baking"/>
+            <instructions>
+                <step number="1">Stretch fermented dough. Top with crushed tomatoes, fresh mozzarella, and olive oil. Bake at ultra-high heat and finish with fresh basil.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Italian Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Italian corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_15" cuisine="Italian">
+        <title>Minestrone</title>
+        <ingredients>
+            <ingredient id="r15_ing_13">
+                <name>Olive Oil</name>
+                <qty unit="tbsp">2</qty>
+                <functions>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r15_ing_14">
+                <name>Tomato</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r15_ing_15">
+                <name>Garlic</name>
+                <qty unit="cloves">2</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r15_ing_29">
+                <name>Parmigiano Reggiano</name>
+                <qty unit="g">30</qty>
+                <functions>
+                    <function>Umami Base</function>
+                    <function>Dairy Fat/Salinity</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r15_ing_33">
+                <name>Mixed Vegetables (Sofrito/Minestrone)</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Aromatic Trinity</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <instructions>
+                <step number="1">Simmer mixed vegetables, garlic, and tomatoes in water or vegetable stock until hearty and tender. Finish with olive oil and cheese.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional Italian Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the Italian corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_16" cuisine="German">
+        <title>Käsekuchen</title>
+        <ingredients>
+            <ingredient id="r16_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">3</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r16_ing_12">
+                <name>Quark</name>
+                <qty unit="g">500</qty>
+                <functions>
+                    <function>Umami Base</function>
+                    <function>Acid-Set Curd</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r16_ing_30">
+                <name>00 Flour</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Baking"/>
+            <instructions>
+                <step number="1">Whisk quark with eggs, sugar, and starch until smooth. Pour into a springform pan and bake until set.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional German Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the German corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_17" cuisine="German">
+        <title>Schnitzel</title>
+        <ingredients>
+            <ingredient id="r17_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">1</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r17_ing_30">
+                <name>00 Flour</name>
+                <qty unit="g">50</qty>
+                <functions>
+                    <function>Carbohydrate Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r17_ing_34">
+                <name>Pork Cutlet</name>
+                <qty unit="pcs">2</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r17_ing_35">
+                <name>Breadcrumbs (Paniermehl)</name>
+                <qty unit="g">100</qty>
+                <functions>
+                    <function>Textural Shell</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Pan-frying"/>
+            <instructions>
+                <step number="1">Pound pork flat. Dredge in flour, beaten egg, and breadcrumbs. Fry swimming in hot fat until golden.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional German Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the German corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_18" cuisine="German">
+        <title>Spätzle</title>
+        <ingredients>
+            <ingredient id="r18_ing_01">
+                <name>Egg</name>
+                <qty unit="pcs">4</qty>
+                <functions>
+                    <function>Binder</function>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r18_ing_36">
+                <name>Spelt/Wheat Flour (Spätzlemehl)</name>
+                <qty unit="g">400</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Simmering"/>
+            <technique name="Scraping (Schaben)"/>
+            <instructions>
+                <step number="1">Beat flour, eggs, water, and salt into a highly viscous batter until bubbles form. Scrape directly from a wooden board into boiling water.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional German Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the German corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_19" cuisine="German">
+        <title>Rouladen</title>
+        <ingredients>
+            <ingredient id="r19_ing_33">
+                <name>Mixed Vegetables (Sofrito/Minestrone)</name>
+                <qty unit="g">150</qty>
+                <functions>
+                    <function>Aromatic Trinity</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r19_ing_37">
+                <name>Beef Top Round</name>
+                <qty unit="pcs">4</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r19_ing_38">
+                <name>Bacon (Speck)</name>
+                <qty unit="g">100</qty>
+                <functions>
+                    <function>Smoked Lipid Base</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r19_ing_39">
+                <name>Mustard (Senf)</name>
+                <qty unit="tbsp">2</qty>
+                <functions>
+                    <function>Fat/Emulsifier</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r19_ing_40">
+                <name>Pickles (Gewürzgurke)</name>
+                <qty unit="pcs">2</qty>
+                <functions>
+                    <function>Acidic Balancer</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Slow-cooking"/>
+            <technique name="Rolling/Stuffing"/>
+            <instructions>
+                <step number="1">Spread mustard over beef sheets, layer with bacon, onions, and pickles. Roll tightly, secure, sear, and braise with mixed vegetables.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional German Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the German corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+    <recipe id="r_20" cuisine="German">
+        <title>Kassler Sauerbraten</title>
+        <ingredients>
+            <ingredient id="r20_ing_33">
+                <name>Mixed Vegetables (Sofrito/Minestrone)</name>
+                <qty unit="g">200</qty>
+                <functions>
+                    <function>Aromatic Trinity</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r20_ing_41">
+                <name>Kassler/Pork Roast</name>
+                <qty unit="g">1000</qty>
+                <functions>
+                    <function>Culinary Component</function>
+                </functions>
+            </ingredient>
+            <ingredient id="r20_ing_42">
+                <name>Vinegar Marinade</name>
+                <qty unit="ml">250</qty>
+                <functions>
+                    <function>Acid Denaturant</function>
+                </functions>
+            </ingredient>
+        </ingredients>
+        <process-flow>
+            <technique name="Reduction"/>
+            <technique name="Slow-cooking"/>
+            <technique name="Marinating"/>
+            <instructions>
+                <step number="1">Marinate the meat for several days in the vinegar solution. Sear with vegetables, reduce the marinade, and slow-cook until ultra-tender.</step>
+            </instructions>
+        </process-flow>
+        <cultural-context>
+            <originRegion>Traditional German Territory</originRegion>
+            <historicalNotes>Analyzed recipe in the German corpus.</historicalNotes>
+        </cultural-context>
+    </recipe>
+</culinary-corpus>
